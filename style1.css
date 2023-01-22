@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.logo img{
+    width: 150px;
+    height: 75px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(92, 89, 89);
+}
+nav a:hover {
+    color:aqua;
+}
+.container{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.header-section{
+    margin-top: -20px;
+    background: radial-gradient(#fff, #eaf2fb);
+}
+.contact{
+    background-color: rgb(52, 52, 58);
+    margin-bottom: -20px;
+}
+.aboutme{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   background-color: rgb(52, 52, 58);
+   margin-top: 30px;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+#nl-footer {
+    position: relative;
+    margin-bottom: 20px;
+}
+*{
+    box-sizing: border-box;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+#nl-footer input[type="text"] {
+    width: 100%;
+    border-radius: 5px;
+    height: 44px;
+    padding: 0 30px 0 20px;
+    border: 1px solid rgba(50, 58, 69, 0.5);
+}
+input {
+    line-height: normal;
+    outline: none;
+    font-size: 12px;
+    margin: 0;
+    font: inherit;
+}
+#nl-footer i {
+    position: absolute;
+    height: 44px;
+    width: 30px;
+    top: 0px;
+    right: 0;
+    color: #B92D5E;
+    line-height: 44px;
+    font-size: 22px;
+}
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    transform: translate(0, 0);
+    -webkit-font-smoothing: antialiased
+}
+#nl-footer div.nl-message-ok {
+    display: none;
+    color: #B92D5E;
+    font-size: 16px;
+    padding: 10px 0;
+}
+#nl-footer input[type="submit"] {
+    position: absolute;
+    font-size: 0;
+    height: 44px;
+    width: 30px;
+    opacity: 0;
+    top: 0;
+    right: 0;
+}
+ input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+.produits{
+    display: flex;
+}
+.produits h3{
+    text-align: center;
+    font-size: 2.2rem;
+    color: #444;
+    margin: 50px 0;
+}
+.produit{
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 15px;
+}
+.produit img{
+    width: 100%;
+    height: auto;
+}
+.produit h3{
+    color: rgb(104, 104, 236);
+}
+.produit a{
+    text-decoration: none;
+}
